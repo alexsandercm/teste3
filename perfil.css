@@ -1,0 +1,39 @@
+body{
+	width: 600px
+	margin: 0 auto;
+	background-color: #1E90FF;
+	padding: 0 20px 20px 20px;
+	border: 2px solid black;
+}
+h1 { text-align: center }
+#main {
+	max-width: 60px;
+	margin: 50px;
+}
+.ft-perfil{
+	width: 30%;
+	border-radius: 50%;
+	 animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+p {
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+    width: 40%
+  }
+
+  to {
+    margin-left: 30%;
+    width: 50%;
+  }
+}
+#home-logo img {
+min-width: 350px;
+min-height: 160px;
+}
